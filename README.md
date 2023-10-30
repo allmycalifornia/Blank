@@ -1,2 +1,2 @@
-# Blank
-empty blank project UIKit withouts storyboards
+# DemoMVP+Router architecture
+simple MVP+Router example with 3 screens
