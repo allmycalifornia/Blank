@@ -18,7 +18,7 @@ class SecondViewController: UIViewController, SecondView {
         view.backgroundColor = .systemGray4
         title = "Второй экран"
         
-        nextButton.setTitle("Next", for: .normal)
+        nextButton.setTitle("Переход на третий экран", for: .normal)
         nextButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 20)
         nextButton.addTarget(self, action: #selector(nextButtonTapped), for: .touchUpInside)
         

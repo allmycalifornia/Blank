@@ -18,7 +18,7 @@ class FirstViewController: UIViewController, FirstView {
         view.backgroundColor = .systemGray6
         title = "Первый экран"
         
-        nextButton.setTitle("Next", for: .normal)
+        nextButton.setTitle("Переход на второй экран", for: .normal)
         nextButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 20)
         nextButton.addTarget(self, action: #selector(nextButtonTapped), for: .touchUpInside)
         
